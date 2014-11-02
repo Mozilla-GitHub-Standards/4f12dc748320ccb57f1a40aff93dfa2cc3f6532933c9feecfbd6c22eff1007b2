@@ -1,11 +1,8 @@
-"""
-Client to ensure accuracy
-~~~~~~~~~~~~~~~~~~
-
-This module contains a client side to call for partials the funsize server
-
-"""
-
+# ***** BEGIN LICENSE BLOCK *****
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this file,
+# You can obtain one at http://mozilla.org/MPL/2.0/.
+# ***** END LICENSE BLOCK *****
 import argparse
 import requests
 import time
@@ -134,5 +131,5 @@ def main():
     client.demand_partial(args)
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
